@@ -1,0 +1,54 @@
+CODE_LOADING java.lang.System.load(Ljava/lang/String;)V
+CODE_LOADING java.lang.System.loadLibrary(Ljava/lang/String;)V
+CODE_LOADING java.lang.System.mapLibraryName(Ljava/lang/String;)Ljava/lang/String;
+
+CODE_LOADING java.lang.Runtime.exec([Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;
+CODE_LOADING java.lang.Runtime.exec(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;
+CODE_LOADING java.lang.Runtime.exec([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;
+CODE_LOADING java.lang.Runtime.exec(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;
+CODE_LOADING java.lang.Runtime.exec(Ljava/lang/String;)Ljava/lang/Process;
+CODE_LOADING java.lang.Runtime.exec([Ljava/lang/String;)Ljava/lang/Process;
+CODE_LOADING java.lang.Runtime.load(Ljava/lang/String;)V
+CODE_LOADING java.lang.Runtime.loadLibrary(Ljava/lang/String;)V
+
+CODE_LOADING java.lang.ProcessBuilder.start()Ljava/lang/Process;
+
+
+# from dalvik.system.BaseDexClassLoader
+CODE_LOADING dalvik.system.DexClassLoader.<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader)V
+CODE_LOADING dalvik.system.DexClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class;
+CODE_LOADING dalvik.system.DexClassLoader.findLibrary(Ljava/lang/String;)Ljava/lang/String;
+CODE_LOADING dalvik.system.DexClassLoader.findResource(Ljava/lang/String;)Ljava/net/URL;
+CODE_LOADING dalvik.system.DexClassLoader.findResources(Ljava/lang/String;)Ljava/util/Enumeration;
+CODE_LOADING dalvik.system.DexClassLoader.getPackage(Ljava/lang/String;)Ljava/lang/Package;;
+
+# from java.lang.ClassLoader
+## defineClass
+## definePackage
+CODE_LOADING java.lang.ClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class;
+CODE_LOADING java.lang.ClassLoader.findLibrary(Ljava/lang/String;)Ljava/lang/String;
+
+CODE_LOADING java.lang.ClassLoader.findSystemClass(Ljava/lang/String;)Ljava/lang/Class;
+CODE_LOADING dalvik.system.DexClassLoader.findSystemClass(Ljava/lang/String;)Ljava/lang/Class;
+
+CODE_LOADING java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;
+CODE_LOADING java.lang.ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class;
+CODE_LOADING dalvik.system.DexClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class;
+CODE_LOADING dalvik.system.DexClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class;
+
+REFLECTION java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+
+CODE_LOADING android.support.v4.app.ActivityCompat.requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+
+
+CODE_LOADING android.webkit.WebView.addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
+CODE_LOADING android.webkit.WebView.loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String)V
+CODE_LOADING android.webkit.WebView.loadDataWithBaseURL(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+CODE_LOADING android.webkit.WebView.loadUrl(Ljava/lang/String;)V
+CODE_LOADING android.webkit.WebView.loadUrl(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;)V
+CODE_LOADING android.webkit.WebSettings.setAllowFileAccessFromFileURLs(Z)V
+CODE_LOADING android.webkit.WebSettings.setAllowUniversalAccessFromFileURLs(Z)V
+CODE_LOADING android.webkit.WebSettings.setJavaScriptCanOpenWindowsAutomatically(Z)V
+CODE_LOADING android.webkit.WebSettings.setJavaScriptEnabled(Z)V
+

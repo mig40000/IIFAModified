@@ -1,0 +1,16 @@
+HASHING java.security.MessageDigest.digest([B)[B
+HASHING java.security.MessageDigest.digest()[B
+HASHING java.security.MessageDigest.digest([BII)I
+
+## apache commons codec,  DigestUtils.md5(..)
+## guava
+
+CRYPTO javax.crypto.Cipher.doFinal([BI)I
+CRYPTO javax.crypto.Cipher.doFinal([BII[B)I
+CRYPTO javax.crypto.Cipher.doFinal([BII[BI)I
+
+CRYPTO javax.crypto.Cipher.doFinal()[B
+CRYPTO javax.crypto.Cipher.doFinal([B)[B
+CRYPTO javax.crypto.Cipher.doFinal([BII)[B
+
+CRYPTO javax.crypto.Cipher.doFinal(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
